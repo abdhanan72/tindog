@@ -61,7 +61,11 @@ margin: 0 15% 0 ;
   text-align: center;
   padding: 5%;
 }
-#feature-img{
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
   color: #ff4c68;
-  margin-bottom: 20px;
 }
