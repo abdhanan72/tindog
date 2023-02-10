@@ -54,12 +54,14 @@ body{
   margin: 5% 3% 5% 0;
 }
 .title-img{
-width: 60%;
 transform: rotate(25deg);
-margin: 0 15% 0 ;
+position: absolute;
+margin-right: 15%;
 }
 #features{
   padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
 }
 
 .feature-box{
@@ -122,4 +124,17 @@ margin: 0 15% 0 ;
 }
 .price-col{
   padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  
 }
