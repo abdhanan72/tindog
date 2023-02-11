@@ -32,7 +32,7 @@ body{
 
 
 .container-fluid{
-  padding: 3% 15%}
+  padding: 3% 15% 7%}
 
   .navbar{
     padding:0 0 4.5rem;
@@ -56,7 +56,7 @@ body{
 .title-img{
 transform: rotate(25deg);
 position: absolute;
-margin-right: 15%;
+padding-right: 10px;
 }
 #features{
   padding: 7% 15%;
@@ -113,12 +113,12 @@ margin-right: 15%;
 #footer{
 
  text-align: center; 
- padding: 5% 0 5%;
+padding:3% 15%;
  line-height: 3;
 
 }
 #cta{
-  padding-top: 7%;
+  padding: 7% 15%;
   text-align: center;
   background-color: #ff4c68;
 }
@@ -138,11 +138,21 @@ margin-right: 15%;
   .title-img{
     position: static;
     transform: rotate(0);
+    padding-left: 2px;
   }
   
 }
 
 .icns{
   padding: 0% 5px;
+}
+.dwnld{
+  padding: 0% 5px;
+}
+
+.lsth3{
+  font-family: 'Montserrat',sans-serif;
+ font-size: 3.5rem;  
+ line-height: 1.5;
 }
 
